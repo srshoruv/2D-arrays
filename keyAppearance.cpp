@@ -9,7 +9,7 @@ int app(int arr[][3], int n, int m, int key) {
                 app ++;
             }
         }
-    } cout << "The number " << key << " appeared " << app << " times in this matrix";
+    } cout << key << " appeared " << app << " times in this matrix";
 }
 
 int main(){
